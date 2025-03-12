@@ -41,7 +41,7 @@ public class Assignment4 {
 				arr2[i]=sc.nextInt();
 			}
 			try {
-				System.out.println("Result:-"+AO.CountClumps(arr2));
+				System.out.println("Result:"+AO.CountClumps(arr2));
 			}catch(AssertionError e) {
 				System.out.println(e.getMessage());
 			}
@@ -60,7 +60,7 @@ public class Assignment4 {
 				System.out.println("Enter the Element "+i);
 				arr3[i]=sc.nextInt();
 			}
-			System.out.println("Result Array:-");
+			System.out.println("Result Array:");
 			try {
 				arr3=AO.fixXY(x, y, arr3);
 			}catch(AssertionError e) {
@@ -80,7 +80,7 @@ public class Assignment4 {
 				arr4[i]=sc.nextInt();
 			}
 			try {
-			System.out.println("Result:-"+AO.CountClumps(arr4));
+			System.out.println("Result:"+AO.CountClumps(arr4));
 			}catch(AssertionError e) {
 				System.out.println(e.getMessage());
 			}
